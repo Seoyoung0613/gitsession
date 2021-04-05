@@ -1,0 +1,6 @@
+<h1>새로운 과제가 있나요?</h1>
+
+<form method = "POST" class = "post-form"> {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">저장하기💨</button>
+</form>
